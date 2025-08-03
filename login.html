@@ -19,44 +19,7 @@
             padding: 0;
         }
 
-        .phone-frame {
-            position: fixed;
-            top: -30%;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 220px;
-            height: 500px;
-            background: linear-gradient(135deg, #F8FCF8 0%, #F0F8F0 50%, #E8F4E8 100%);
-            border-radius: 30px;
-            border: 1px solid #222;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-            z-index: 1;
-            overflow: hidden;
-        }
 
-        .phone-frame::before {
-            content: '';
-            position: absolute;
-            top: 15px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 60px;
-            height: 4px;
-            background: #ccc;
-            border-radius: 2px;
-        }
-
-        .phone-screen {
-            position: absolute;
-            top: 30px;
-            left: 22px;
-            right: 22px;
-            bottom: 6px;
-            background: url('onboarding-capture.jpg') no-repeat center center;
-            background-size: contain;
-            border-radius: 25px;
-            overflow: hidden;
-        }
 
 
 
@@ -68,7 +31,6 @@
             justify-content: center;
             min-height: 100vh;
             padding: 20px;
-            padding-top: 200px;
         }
 
         .container {
@@ -205,9 +167,6 @@
     </style>
 </head>
 <body>
-    <div class="phone-frame">
-        <div class="phone-screen"></div>
-    </div>
     <div class="content-wrapper">
         <div class="container">
             <div class="verse">
